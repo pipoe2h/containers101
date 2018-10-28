@@ -74,15 +74,22 @@ docker build .
 You should get an output as follow:
 
 ```shell
-Sending build context to Docker daemon   5.12kB
+Sending build context to Docker daemon  8.704kB
 Step 1/3 : FROM nginx
+latest: Pulling from library/nginx
+f17d81b4b692: Pull complete
+d5c237920c39: Pull complete
+a381f92f36de: Pull complete
+Digest: sha256:b73f527d86e3461fd652f62cf47e7b375196063bbbd503e853af5be16597cb2e
+Status: Downloaded newer image for nginx:latest
  ---> dbfc48660aeb
-Step 2/3 : LABEL maintainer="name.surname@nutanix.com"
- ---> Running in 4d73deb94221
-Removing intermediate container 4d73deb94221
- ---> 6677b688bb30
+Step 2/3 : LABEL maintainer="jose.gomez@nutanix.com"
+ ---> Running in 1d62f0af33d7
+Removing intermediate container 1d62f0af33d7
+ ---> a901e00a01c9
 Step 3/3 : COPY html /usr/share/nginx/html
- ---> c9de1af1ca97Successfully built c9de1af1ca97
+ ---> adc5195c1e62
+Successfully built adc5195c1e62
  ```
 
 5. List what images are available after the build
