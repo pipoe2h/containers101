@@ -48,7 +48,7 @@ Follow the next steps according to your computer operating system. Before you ru
   ```
 
 # Lab Setup
-A SuperNuc is running AOS and Prism Central 5.9 with AHV. The lab uses Calm to provision a Linux instance with Docker (RancherOS) for each of the delegates.
+A SuperNUC is running AOS and Prism Central 5.9 with AHV. The lab uses Calm to provision a Linux instance with Docker (RancherOS) for each of the delegates.
 
 Also, in the same Calm blueprint a *Registry Cache* instance is provisioned to reduce access to the Internet when pulling images.
 
@@ -86,6 +86,5 @@ git clone https://github.com/pipoe2h/containers101.git
 ```shell
 ls
 ```
-```shell
 
-```
+**You environment is ready!**
