@@ -148,13 +148,13 @@ We will look later in depth how to run containers, but for the purpose of this e
 Run the following command:
 
 ```shell
-docker run --rm -d --name myfirstapp -p 8080:80 <container_image>
+docker run -d --name myfirstapp -p 8080:80 <container_image>
 ```
 
 For example:
 
 ```shell
-docker run --rm -d --name myfirstapp -p 8080:80 jose.gomez/myfirstapp
+docker run -d --name myfirstapp -p 8080:80 jose.gomez/myfirstapp
 ```
 
 To confirm the application is running and exposed in your virtual machine, open a web browser and type the IP address of your virtual machine followed of port *8080*, i.e. http://10.10.56.184:8080
