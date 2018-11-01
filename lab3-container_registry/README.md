@@ -1,5 +1,5 @@
 # Lab3 - Container Registry
-The objective of this lab is to push the build image into a private registry with image scanning enabled.
+The objective of this lab is to push the built image into a private registry with image scanning enabled.
 
 * Login on registry
 * Tag the container image

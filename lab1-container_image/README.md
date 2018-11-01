@@ -108,7 +108,7 @@ nginx                     latest              dbfc48660aeb        12 days ago   
 bwits/docker-git-alpine   latest              c85b15cccb41        17 months ago       27.8MB
 ```
 
-The one at the top is the container image you just build. You can see the image doesn't have a name or tag yet.
+The one at the top is the container image you just built. You can see the image doesn't have a name or tag yet.
 
 Write down the *IMAGE ID* for the container image you just created. You will need it for the next section.
 
