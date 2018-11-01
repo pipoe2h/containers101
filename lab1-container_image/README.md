@@ -158,3 +158,5 @@ docker run -d --name myfirstapp -p 8080:80 jose.gomez/myfirstapp
 ```
 
 To confirm the application is running and exposed in your virtual machine, open a web browser and type the IP address of your virtual machine followed of port *8080*, i.e. http://10.10.56.184:8080
+
+**Lab finished**
