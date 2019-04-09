@@ -1,5 +1,5 @@
 # Lab4 - Container Network
-The objective of this lab is to create a new network and connect an instance of our web application listening on port *8080*.
+The objective of this lab is to create a new network and connect an instance of our web application listening on port *8080*. If you already have a container exposed in the same host port, please use a different port number.
 
 * Create container network
 * Create container connected to the new network
