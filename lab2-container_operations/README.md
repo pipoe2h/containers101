@@ -17,7 +17,7 @@ Let's list the running containers.
 docker container ps
 ```
 
-You should get an output as follow:
+You should get an output as follow but with your container name:
 
 ```shell
 CONTAINER ID        IMAGE                                              COMMAND                  CREATED             STATUS              PORTS                  NAMES
