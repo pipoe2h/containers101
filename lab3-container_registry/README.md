@@ -26,6 +26,12 @@ docker login 10.10.56.188
 
 You should get a *Login Succeeded* message.
 
+**Tip:** You can get the Harbor FQDN to running the following command and look for the value of **insecure-registries**:
+
+```shell
+cat /etc/docker/daemon.json
+```
+
 ## Tag the container image
 Let's tag our container image with the path for the private registry. You need the container image ID or container image name as well as your email username.
 
