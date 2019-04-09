@@ -12,7 +12,7 @@ The lab is running a private registry, VMware Harbor. This is an open source reg
 
 On your virtual machine run the following command to login. The username is *user* followed of your delegate number, i.e. **user1**
 
-First you will need to know the IP address for the registry. Ping **reg.ntnxdemo.local** to get the IP address.
+First you will need to know the IP address for the registry. You can check the registry IP address in the Calm application. Look for the Harbor VM to get the IP address. Once with the address, the FQDN to use is **harbor.<ip_address>.nip.io**
 
 ```shell
 docker login <registry_IP>
