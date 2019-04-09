@@ -12,4 +12,6 @@ Use as a reference the following material:
 
 * [Amazon EKS - Kubernetes Dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html)
 
+**Tip:** If you run **kubectl** natively in your laptop it will make easier the way you will connect to Kubernetes Dashboard. To see how to install **kubectl** in your operating system you can visit this [link](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+
 **Lab finished**

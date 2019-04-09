@@ -8,4 +8,6 @@ For this exercise we are going to deploy Nutanix Epoch. Nutanix Epoch runs as a 
 
 Open [My Nutanix](https://my.nutanix.com) and use your Nutanix credentials to access your own Xi Epoch. If you don't have Epoch, you can use **demo.nutanix.com**
 
+Now that you have your cluster monitored with Nutanix Epoch, let's test that our DaemonSet is working. Go back to your Kubernetes cluster in Karbon and scale-out your cluster with one extra worker node.
+
 **Lab finished**
