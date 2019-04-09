@@ -44,25 +44,25 @@ docker image ls
 To tag the container image as *version 1.0* with the new name:
 
 ```shell
-docker tag <container_ID> <registry_IP>/library/<email username>/myfirstapp:1.0
+docker tag <container_ID> <registry_FQDN>/library/<email username>/myfirstapp:1.0
 ```
 
 For example:
 
 ```shell
-docker tag d9c63af550b0 10.10.56.188/library/jose.gomez/myfirstapp:1.0
+docker tag d9c63af550b0 harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 ```
 
 ## Push the container image
 Now we have the image properly tagged, let's push it into the private registry:
 
 ```shell
-docker push <registry_IP>/library/<email username>/myfirstapp:1.0
+docker push <registry_FQDN>/library/<email username>/myfirstapp:1.0
 ```
 
 For example:
 ```shell
-docker push 10.10.56.188/library/jose.gomez/myfirstapp:1.0
+docker push harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 ```
 
 You should get an output as follow:
