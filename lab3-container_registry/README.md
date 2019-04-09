@@ -68,7 +68,7 @@ docker push harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 You should get an output as follow:
 
 ```shell
-The push refers to repository [10.10.56.188/library/jose.gomez/myfirstapp]
+The push refers to repository [harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp]
 443e39316bc5: Pushed
 86df2a1b653b: Pushed
 bc5b41ec0cfa: Pushed
@@ -85,13 +85,13 @@ Navigate to the library repository, your image, and click version 1.0. You shoul
 From Harbor pick the name of any other image and pull this one on your virtual machine.
 
 ```shell
-docker pull <registry_IP>/library/<delegate_image>
+docker pull <registry_FQDN>/library/<delegate_image>
 ```
 
 For example:
 
 ```shell
-docker pull 10.10.56.188/library/jose.gomez/myfirstapp:1.0
+docker pull harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 ```
 
 You should get an output as follow:
@@ -103,7 +103,7 @@ d5c237920c39: Already exists
 a381f92f36de: Already exists
 032083ca8813: Pull complete
 Digest: sha256:d3464783884ebbdfa6a8bc40691ab45e200f01847ce4189ab41f09be7c316f37
-Status: Downloaded newer image for 10.10.56.188/library/jose.gomez/myfirstapp:1.0
+Status: Downloaded newer image for harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 ```
 
 **Lab finished**
