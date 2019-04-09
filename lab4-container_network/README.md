@@ -39,7 +39,7 @@ docker container run -d --rm --name mycolleageapp --network bootcamp -p 8080:80 
 For example:
 
 ```shell
-docker container run -d --rm --name myfirstapp -p 8080:80 --network bootcamp 10.10.56.188/library/jose.gomez/myfirstapp:1.0
+docker container run -d --rm --name myfirstapp -p 8080:80 --network bootcamp harbor.10.10.56.188.nip.io/library/jose.gomez/myfirstapp:1.0
 ```
 
 ## Inspect the new network
