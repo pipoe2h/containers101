@@ -26,7 +26,7 @@ docker login 10.10.56.188
 
 You should get a *Login Succeeded* message.
 
-**Tip:** You can get the Harbor FQDN to running the following command and look for the value of **insecure-registries**:
+**Tip:** You can get the Harbor FQDN running the following command and look for the value of **insecure-registries**:
 
 ```shell
 cat /etc/docker/daemon.json
